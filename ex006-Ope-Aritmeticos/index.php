@@ -28,11 +28,22 @@
          <li><p> <strong> "**"</strong> = Operador de exponenciação</p></li>
     </ul>
 
+    <h2>Ordem de precedencia</h2>
+
+    <ol>
+        <li>( )</li>
+        <li><p>**</p></li>
+        <li>* ou / ou %</li>
+        <li><p>+ ou -</p></li>
+    </ol>
+
 
 
 <?php 
+    echo "Alguns testes:";
+
     $soma = "2" + "2";
-    echo "o resultado da soma é $soma";
+    echo "o resultado da soma de \"2\" + \"2\" é: $soma";
     var_dump($soma);
 
     // funciona mesmo se os valores numericos estiverem dentro de strings
